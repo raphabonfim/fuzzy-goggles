@@ -88,3 +88,21 @@ Tuning knob: every **failed loop** nudges down damage scaling 5 %, preserving fa
 ### TL;DR
 
 **Best Served Cold** hinges on a tight loop: *Hunt → Confront → Showdown → Roles flip*—each iteration harder, visually evolved, and narratively richer. The player ultimately learns that the only way to “win” is to refuse the next cycle of revenge.
+
+---
+
+## Prototype
+
+A minimal Python/Pygame prototype that demonstrates the looping beat'em-up gameplay lives in `game.py`. It uses rectangle sprites as placeholders.
+
+* **Move** with the arrow keys.
+* **Light, heavy and grab attacks** are on `J`, `K` and `L` respectively.
+
+Run with:
+
+```bash
+python game.py
+```
+
+Use `--headless` to run without opening a window (useful for automated tests).
+
